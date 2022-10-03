@@ -1,0 +1,22 @@
+.task {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  padding: 10px 0px;
+}
+.task h2 {
+  padding: 5px;
+}
+.x {
+  color: red;
+  cursor: pointer;
+}
+.v {
+  cursor: pointer;
+  color: green;
+}
+
+.done {
+  text-decoration: line-through;
+}
